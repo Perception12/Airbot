@@ -1,7 +1,7 @@
 import sqlite3
 
 def run_query(query, params=()):
-    db = sqlite3.connect("airline_data.db", detect_types=sqlite3.PARSE_DECLTYPES)
+    db = sqlite3.connect("airline_data.db")
     cursor = db.cursor()
     cursor.execute(query, params)
     results = cursor.fetchall()
@@ -10,7 +10,7 @@ def run_query(query, params=()):
     return results
 
 def init_db():
-    db = sqlite3.connect("airline_data.db", detect_types=sqlite3.PARSE_DECLTYPES)
+    db = sqlite3.connect("airline_data.db")
     cursor = db.cursor()
 
     # Create bookings table if it doesn't exist
