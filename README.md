@@ -18,7 +18,7 @@ Airbot is an intelligent chatbot designed to assist customers with airline-relat
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Perception12/Airbot.git
    cd airbot
    ```
 
