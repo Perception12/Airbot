@@ -95,6 +95,10 @@ airbot/
 - **python-dotenv**: For loading environment variables.
 - **sqlite3**: Built-in Python module for database operations.
 
+## Links
+
+- Medium article: [Building a Flight Booking Chatbot with LLM Tool Calling](https://medium.com/@kehindeadejumobi82/building-a-flight-booking-chatbot-with-llm-tool-calling-5f2d055f8423)
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
