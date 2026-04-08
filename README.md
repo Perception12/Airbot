@@ -1,5 +1,7 @@
 # Airbot - Your Airline Assistant
 
+![Banner](assets/banner.png)
+
 Airbot is an intelligent chatbot designed to assist customers with airline-related inquiries, flight bookings, cancellations, and general information about flights and services. Built using OpenAI's GPT model, Gradio for the user interface, and SQLite for data storage, Airbot provides a seamless and polite conversational experience.
 
 ## Features
