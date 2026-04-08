@@ -1,7 +1,9 @@
 import gradio as gr
 from chatbot.engine import chat
+from db.db_helper import init_db
 
 
 if __name__ == "__main__":
-    demo = gr.ChatInterface(fn=chat, title="Airbot - Your Airline Assistant", description="Ask me anything about flight bookings, cancellations, and general inquiries about flights and services!")
-    demo.launch()
+    init_db()
+    demo = gr.ChatInterface(fn=chat, title="Airbot - Your Airline Assistant")
+    demo.launch(theme=gr.themes.Ocean())

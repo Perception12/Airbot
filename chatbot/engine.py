@@ -1,12 +1,10 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-from db.db_helper import init_db
 from tools.description import tools
 from tools.handler import handle_tool_calls
 
-load_dotenv()
-init_db()
+_ = load_dotenv()
 
 openai = OpenAI()
 MODEL = "gpt-4.1-mini"
